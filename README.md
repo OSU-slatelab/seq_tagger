@@ -1,5 +1,7 @@
 # Sequence Tagging with Cross-Lingual Transfer Learning
-The codes were used for the experiments in the paper, Joo-Kyung Kim, Young-Bum Kim, Ruhi Sarikaya, and Eric Fosler-Lussier, "Cross-lingual Transfer Learning for POS Tagging without Cross-Lingual Resources," EMNLP 2017.
+The codes were used for the experiments in the paper:
+
+Joo-Kyung Kim, Young-Bum Kim, Ruhi Sarikaya, and Eric Fosler-Lussier, "Cross-lingual Transfer Learning for POS Tagging without Cross-Lingual Resources," EMNLP 2017.
 
 The codes were tested with PyTorch 0.1.12 on Python 3.6. (They are not compatible with Python 2.x but can be migrated easily.)
 
@@ -17,7 +19,9 @@ python setup.py install
 ```
 
 
-##	Scripts for the data preparation (Refer to files in ud-treebanks-v1.4)
+##	Scripts for the data preparation
+Refer to files in `ud-treebanks-v1.4`. Only files for English exist in the repository. The files for other languages can be generated with the following scripts.
+
 `chg_corpus_form.py`: Change the UD corpus files (https://lindat.mff.cuni.cz/repository/xmlui/handle/11234/1-1827) to the usable formats in the codes.
 
 `gen_shuffled_trainset.py`: Used to shuffle the trainset file
