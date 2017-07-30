@@ -6,19 +6,6 @@ Joo-Kyung Kim, Young-Bum Kim, Ruhi Sarikaya, and Eric Fosler-Lussier, "Cross-lin
 The codes were tested with PyTorch 0.1.12 on Python 3.6. (They are not compatible with Python 2.x but can be migrated easily.)
 
 
-##	PyTorch Installation
-```
-# install anaconda3 in advance
-export CMAKE_PREFIX_PATH=/home/kimjook/anaconda3 # your anaconda path
-conda install numpy mkl setuptools cmake gcc cffi
-conda install -c soumith magma-cuda80
-git clone https://github.com/pytorch/pytorch
-cd pytorch
-pip install -r requirements.txt
-python setup.py install
-```
-
-
 ##	Scripts for the data preparation
 Refer to files in `ud-treebanks-v1.4`. Only files for English exist in the repository. The files for other languages can be generated with the following scripts.
 
